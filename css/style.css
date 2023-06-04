@@ -26,7 +26,7 @@ body {
   background-color: #ffffff;
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -87,7 +87,7 @@ body {
   margin-right: 76px;
 }
 
-.logo-part {
+.logo-part-header {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -179,9 +179,11 @@ body {
 }
 
 /* our qualities */
+.qualities {
+  padding: 120px 0;
+}
 .qualities-list {
   display: flex;
-  padding: 120px 0;
   gap: 24px;
 }
 .qualities-item {
@@ -206,6 +208,9 @@ body {
 }
 
 /* What are we doing */
+.our-work {
+  padding-bottom: 120px;
+}
 .work-title {
   text-align: center;
   font-weight: 700;
@@ -219,7 +224,6 @@ body {
 .work-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 /* our team */
 
@@ -251,11 +255,11 @@ body {
 .card-container {
   padding: 32px 16px;
 }
-.card-title {
+.teamcard-title {
   text-align: center;
   margin-bottom: 8px;
 }
-.card-text {
+.teamcard-text {
   text-align: center;
 }
 /* footer */
@@ -263,7 +267,6 @@ body {
   background-color: var(--dark);
   padding: 100px 0;
 }
-
 .logo-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -271,9 +274,19 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--light);
+  color: var(--primary-brand);
+  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
+}
+.logo-part-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light);
 }
 
 .footer-text {
